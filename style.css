@@ -8,6 +8,7 @@ body{
     flex-direction: column;
 }
 main{
+
     flex:auto;
 }
 aside{
@@ -15,5 +16,13 @@ aside{
 }
 article{
     flex: 3;
+}
+.left, .right {
+    
+    flex: 0 0 12em;
+}
+
+.left {
+    order: -1;
 }
 
