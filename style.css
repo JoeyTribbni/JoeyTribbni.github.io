@@ -1,24 +1,19 @@
 a,h1{
-  color:green;
+    color:green;
 }
 .box{
     display: flex;
 }
-.box.header{
-    flex-wrap: nowrap ;
+body{
+    flex-direction: column;
 }
-.box .main{
-
-    flex: auto
+main{
+    flex:auto;
 }
-.box .footer{
-    flex-direction:  column;
-}
-.box .article{
-    flex-direction: row ;
-    flex: 3;
-}
-.box .aside{
-    justify-content:  space-between;
+aside{
     flex: 1;
 }
+article{
+    flex: 3;
+}
+
