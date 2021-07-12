@@ -4,11 +4,17 @@ a,h1{
 .box{
     display: flex;
 }
+header{
+    flex-direction: column;
+}
+footer{
+    flex-direction: column;
+}
 body{
     flex-direction: column;
 }
 main{
-
+    flex-direction: column;
     flex:auto;
 }
 aside{
@@ -18,11 +24,10 @@ article{
     flex: 3;
 }
 .left, .right {
-    
+
     flex: 0 0 12em;
 }
 
 .left {
     order: -1;
 }
-
