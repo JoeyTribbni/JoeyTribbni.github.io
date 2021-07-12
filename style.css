@@ -22,12 +22,6 @@ aside{
 }
 article{
     flex: 3;
-}
-.left, .right {
 
-    flex: 0 0 12em;
-}
 
-.left {
-    order: -1;
-}
+
