@@ -4,24 +4,19 @@ a,h1{
 .box{
     display: flex;
 }
-header{
-    flex-direction: column;
-}
-footer{
-    flex-direction: column;
-}
 body{
     flex-direction: column;
 }
 main{
-    flex-direction: column;
     flex:auto;
 }
 aside{
     flex: 1;
 }
-article{
+article {
     flex: 3;
+}
+
 
 
 
